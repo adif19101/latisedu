@@ -7,4 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
+$routes->get('/dashboard','Dashboard::index');
+$routes->presenter('pendataan');
+$routes->post('/pendataan/searchTabel', 'Pendataan::searchTabel');
+
 service('auth')->routes($routes);

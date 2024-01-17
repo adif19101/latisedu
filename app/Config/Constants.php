@@ -1,5 +1,7 @@
 <?php
 
+define('AVATAR_UPLOAD_PATH', WRITEPATH . 'uploads/avatar');
+
 /*
  | --------------------------------------------------------------------
  | App Namespace
